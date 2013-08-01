@@ -1,8 +1,8 @@
 require 'uberspacify/base'
 require 'uberspacify/mysql'
 
-server 'indus.uberspace.de', :web, :app, :db, :primary => true
-set :user, 'wucu'
+server 'mensa.uberspace.de', :web, :app, :db, :primary => true
+set :user, 'zipgy'
 
 set :application, 'dummy'
 
